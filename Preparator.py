@@ -69,6 +69,7 @@ if __name__ == "__main__":
         output = sys.argv[5]
     except TypeError:
         print("There is an error in parsing the provided information")
+	exit(-1)
 
 
     folderBuilder(deq = equilibriumDistance, scanList= relativeDisplacements, cp2kInput=cp2kInput, NAtoms = NAtoms, coordinates=coordinates, output=output)

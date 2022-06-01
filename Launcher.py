@@ -1,7 +1,6 @@
 import graph # Importing the functions implemented in graph.py
 import sys
 import os
-import numpy as np
 
 
 

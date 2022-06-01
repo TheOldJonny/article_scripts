@@ -21,13 +21,13 @@ To use it, use the terminal command inside the folder where there is the script
 `python3 Preparator.py positions.xyz NAtoms z0 input.inp output.out`
 
 Where:
-1. `positions.xyz` is the file that contains the starting `xyz` coordinates. The coordinates are expressed in $\AA$. 
+1. `positions.xyz` is the file that contains the starting `xyz` coordinates. The coordinates are expressed in &#8491;. 
 2. `NAtoms` is the number of atoms of the substrate.
 3. `z0` is the *z* coordinate of the nearest substrate atom to the surface.
 4. `input.inp` is the input file (in the present article is the CP2K input)
 5. `output.out` is the name of the output `xyz` coordinates to be stored in each folder.
 
-The code's aim is to describe the neighborhood of `z0`. The interval is $[z0 - 1~\AA, z0 + 6~\AA]$. The grid has a tighter spacing of $0.1~\AA$ in the range $[z-0.5~\AA, z+0.5~\AA]$, then the spacing becomes broader. 
+The code's aim is to describe the neighborhood of `z0`. The interval is $[z0 - 1 $ &#8491;$, z0 + 6$ &#8491;$]$. The grid has a tighter spacing of $0.1$ &#8491; in the range $[z-0.5 $ &#8491;$, z+0.5 $ &#8491;$]$, then the spacing becomes broader. 
 The variable `relativeDisplacements` can be edited to modify this grid.
 
 *TrajectoryAnalyzer.py*
