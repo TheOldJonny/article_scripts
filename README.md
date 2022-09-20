@@ -28,7 +28,7 @@ Where:
 4. `input.inp` is the input file (in the present article is the CP2K input)
 5. `output.out` is the name of the output `xyz` coordinates to be stored in each folder.
 
-The code's aim is to describe the neighborhood of `z0`. The interval is `[z0 - 1` &#8491; `, z0 + 6` &#8491;`]`. The grid has a tighter spacing of $0.1$ &#8491; in the range `[z-0.5` &#8491;`, z+0.5` &#8491;`]`, then the spacing becomes broader. 
+The code's aim is to describe the neighborhood of `z0`. The interval in &#8491; is `[z0 - 1 , z0 + 6]`. The grid has a tighter spacing of $0.1$ &#8491; in the range `[z-0.5, z+0.5]`, then the spacing becomes broader. 
 The variable `relativeDisplacements` can be edited to modify this grid.
 
 *TrajectoryAnalyzer.py*
@@ -38,8 +38,8 @@ The user can use the following command to use the script:
 
 Where:
 1. `trajectory.xyz` is the `xyz` trajectory file
-2. `atom1` and `atom2` are the indices ($1$-based integers) that describe the bond distance
-3. `atom3 atom4 atom5 atom6` are the indices ($1$-based integers) that describe the dihedral angle
+2. `atom1` and `atom2` are the indices (1-based integers) that describe the bond distance
+3. `atom3 atom4 atom5 atom6` are the indices (1-based integers) that describe the dihedral angle
 4. `output.out` the name of the output file.
 
 A user can find more interesting the usage as a module. After the importing (`import TrajectoryAnalyzer.py`), the user can use the implemented function to analyze a general trajectory.
