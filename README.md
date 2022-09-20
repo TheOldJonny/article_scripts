@@ -28,7 +28,7 @@ Where:
 4. `input.inp` is the input file (in the present article is the CP2K input)
 5. `output.out` is the name of the output `xyz` coordinates to be stored in each folder.
 
-The code's aim is to describe the neighborhood of `z0`. The interval is $[z0 - 1 $ &#8491;$, z0 + 6$ &#8491;$]$. The grid has a tighter spacing of $0.1$ &#8491; in the range $[z-0.5 $ &#8491;$, z+0.5 $ &#8491;$]$, then the spacing becomes broader. 
+The code's aim is to describe the neighborhood of `z0`. The interval is $z_0$   $[z0 - 1 $ &#8491;$, z0 + 6$ &#8491;$]$. The grid has a tighter spacing of $0.1$ &#8491; in the range $[z-0.5 $ &#8491;$, z+0.5 $ &#8491;$]$, then the spacing becomes broader. 
 The variable `relativeDisplacements` can be edited to modify this grid.
 
 *TrajectoryAnalyzer.py*
@@ -48,7 +48,6 @@ For example, the function `timeCatcher(trajectory.xyz)` reads the trajectory and
 
  The code is extensively commented on, and it extensively uses type hints.
 
-$x+y$
 
 *Launcher.py*
 As in the publication, one can have to analyze a series of trajectories. *Launcher.py* performs the same operation of the previous code, but for all the folders in a given path. The command is:
