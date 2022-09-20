@@ -21,11 +21,8 @@ To use it, use the terminal command inside the folder where there is the script
 `python3 Preparator.py positions.xyz NAtoms z0 input.inp output.out`
 
 Where:
-<<<<<<< HEAD
-1. `positions.xyz` is the file that contains the starting `xyz` coordinates. The coordinates are expressed in &#8491;. 
-=======
-1. `positions.xyz` is the file that contains the starting `xyz` coordinates. The coordinates are expressed in &#8491; 
 
+1. `positions.xyz` is the file that contains the starting `xyz` coordinates. The coordinates are expressed in &#8491;. 
 2. `NAtoms` is the number of atoms of the substrate.
 3. `z0` is the *z* coordinate of the nearest substrate atom to the surface.
 4. `input.inp` is the input file (in the present article is the CP2K input)
