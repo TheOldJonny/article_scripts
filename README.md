@@ -1,6 +1,3 @@
-When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$ and they are 
-$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
-
 **Introduction**
 The code has been implemented by Jonathan Campeggio. For doubts and suggestions, please write an e-mail to *jonathan.campeggio@gmail.com*.
 
@@ -51,7 +48,7 @@ For example, the function `timeCatcher(trajectory.xyz)` reads the trajectory and
 
  The code is extensively commented on, and it extensively uses type hints.
 
-$ x + y $
+$x+y$
 
 *Launcher.py*
 As in the publication, one can have to analyze a series of trajectories. *Launcher.py* performs the same operation of the previous code, but for all the folders in a given path. The command is:
