@@ -48,7 +48,7 @@ For example, the function `timeCatcher(trajectory.xyz)` reads the trajectory and
 
  The code is extensively commented on, and it extensively uses type hints.
 
-
+$ x + y $
 
 *Launcher.py*
 As in the publication, one can have to analyze a series of trajectories. *Launcher.py* performs the same operation of the previous code, but for all the folders in a given path. The command is:
